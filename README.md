@@ -1,6 +1,24 @@
 # Ng5BaseApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+This project can be a good starting point for any angular5 application. It incorporates typical things that should be present in any frontend application. The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4. 
+
+## Setup
+Install node using nvm
+```
+touch ~/.bash_profile
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash
+nvm install 8.9.0
+nvm use 8.9.0
+nvm alias default 8.9.0
+```
+Install global dependencies
+```npm install -g yarn @angular/cli```
+
+Install local and dev dependencies from project directory using `npm` or `yarn`
+```npm install```
+or
+```yarn install```
+
 
 ## Development server
 
