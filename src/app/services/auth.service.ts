@@ -21,6 +21,10 @@ export class AuthService {
     return this.currentUser;
   }
 
+  getCurrentRole() {
+    // return this.currentUser['role'];
+  }
+
   getAuthToken() {
     return localStorage.getItem('authToken');
   }

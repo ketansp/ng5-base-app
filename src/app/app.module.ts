@@ -7,6 +7,7 @@ import { AuthService } from './services/auth.service';
 import { HttpRequestInterceptor } from './interceptors/http-request-interceptor';
 import { HttpResponseInterceptor } from './interceptors/http-response-interceptor';
 import { AuthenticationGuard } from './guards/authentication.guard';
+import { RoleGuard } from './guards/role.guard';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { AuthenticationGuard } from './guards/authentication.guard';
   providers: [
     AuthService,
     AuthenticationGuard,
+    RoleGuard,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: HttpRequestInterceptor,
