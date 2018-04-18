@@ -12,12 +12,18 @@ nvm use 8.9.0
 nvm alias default 8.9.0
 ```
 Install global dependencies
-```npm install -g yarn @angular/cli```
+```
+npm install -g yarn @angular/cli
+```
 
 Install local and dev dependencies from project directory using `npm` or `yarn`
-```npm install```
+```
+npm install
+```
 or
-```yarn install```
+```
+yarn install
+```
 
 
 ## Development server
