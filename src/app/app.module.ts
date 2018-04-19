@@ -14,6 +14,11 @@ import { LogoutComponent } from './views/authentication/logout/logout.component'
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
 import { AdminComponent } from './views/admin/admin.component';
+import { MainComponent } from './views/main/main.component';
+import { CommonComponent } from './views/main/common/common.component';
+import { HeaderComponent } from './views/main/common/header/header.component';
+import { FooterComponent } from './views/main/common/footer/footer.component';
+import { SidebarComponent } from './views/main/common/sidebar/sidebar.component';
 
 
 @NgModule({
@@ -22,7 +27,12 @@ import { AdminComponent } from './views/admin/admin.component';
     AuthenticationComponent,
     LoginComponent,
     LogoutComponent,
-    AdminComponent
+    AdminComponent,
+    MainComponent,
+    CommonComponent,
+    HeaderComponent,
+    FooterComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
