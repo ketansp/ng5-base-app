@@ -13,6 +13,7 @@ import { LoginComponent } from './views/authentication/login/login.component';
 import { LogoutComponent } from './views/authentication/logout/logout.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
+import { AdminComponent } from './views/admin/admin.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { routes } from './app.routes';
     AppComponent,
     AuthenticationComponent,
     LoginComponent,
-    LogoutComponent
+    LogoutComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
