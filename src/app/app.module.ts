@@ -19,6 +19,7 @@ import { CommonComponent } from './views/main/common/common.component';
 import { HeaderComponent } from './views/main/common/header/header.component';
 import { FooterComponent } from './views/main/common/footer/footer.component';
 import { SidebarComponent } from './views/main/common/sidebar/sidebar.component';
+import { HomeComponent } from './views/main/home/home.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { SidebarComponent } from './views/main/common/sidebar/sidebar.component'
     CommonComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
