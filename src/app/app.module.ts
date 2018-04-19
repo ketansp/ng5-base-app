@@ -11,6 +11,8 @@ import { RoleGuard } from './guards/role.guard';
 import { AuthenticationComponent } from './views/authentication/authentication.component';
 import { LoginComponent } from './views/authentication/login/login.component';
 import { LogoutComponent } from './views/authentication/logout/logout.component';
+import { RouterModule } from '@angular/router';
+import { routes } from './app.routes';
 
 
 @NgModule({
@@ -21,7 +23,8 @@ import { LogoutComponent } from './views/authentication/logout/logout.component'
     LogoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [
     AuthService,
